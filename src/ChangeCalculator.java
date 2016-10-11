@@ -1,3 +1,4 @@
+
 // Copyright The League of Amazing Programmers 2014
 import javax.swing.JOptionPane;
 
@@ -11,21 +12,19 @@ public class ChangeCalculator {
 	public static void main(String[] args) {
 
 		// Ask the user how many nickels they have
-String nickles = JOptionPane.showInputDialog("How many nickles do you have?");
+		String nickles = JOptionPane.showInputDialog("How many nickles do you have?");
 		// Convert their answer to an int using Integer.parseInt()
-int nicklesasint = Integer.parseInt(nickles);
+		int nicklesasint = Integer.parseInt(nickles);
 		// Ask the user how many dimes they have, and convert their answer
-String dimes = JOptionPane.showInputDialog("How many dimes do you have?");
-int dimesasint = Integer.parseInt(dimes);
+		String dimes = JOptionPane.showInputDialog("How many dimes do you have?");
+		int dimesasint = Integer.parseInt(dimes);
 		// Ask the user how many quarters they have, and convert their answer
-String quarters = JOptionPane.showInputDialog("How many quarters do you have?");
-int quartersasint = Integer.parseInt(quarters);
-		// Calculate how much money the user has and save it in a double variable 
-
+		String quarters = JOptionPane.showInputDialog("How many quarters do you have?");
+		int quartersasint = Integer.parseInt(quarters);
+		// Calculate how much money the user has and save it in a double
+		// variable
+		double totalmoney = (nicklesasint * 0.05) + (dimesasint * 0.10) + (quartersasint * 0.25);
 		// Tell the user how much money they have
-
+		System.out.println(totalmoney);
 	}
 }
-
-
-
