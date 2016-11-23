@@ -25,6 +25,6 @@ public class ChangeCalculator {
 		// variable
 		double totalmoney = (nicklesasint * 0.05) + (dimesasint * 0.10) + (quartersasint * 0.25);
 		// Tell the user how much money they have
-		System.out.println(totalmoney);
+		JOptionPane.showMessageDialog(null, "You have $"+totalmoney+"!");
 	}
 }

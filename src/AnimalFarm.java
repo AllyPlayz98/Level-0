@@ -9,30 +9,27 @@ public class AnimalFarm {
 
 	AnimalFarm() {
 		/*
-		 * 1. Ask the user which animal they want, then play the sound of that
-		 * animal.
+		 * 1. Ask the user which animal they want, then play the sound of that animal.
 		 */
-String answer = JOptionPane.showInputDialog("Which animal would you like?");
-
-		/* 2. Make it so that the user can keep entering new animals. */
-//	String num
-if(answer.equals("cows")){
-	playMoo();
-
-
-}
-
-	
-	
-	
+		for (int o = 0; o < 3; o++) {
+		String answer = JOptionPane.showInputDialog("Which animal would you like?");
+			/* 2. Make it so that the user can keep entering new animals. */
+			// String num
+			if (answer.equals("Cow")) {
+				playMoo();
+			}
+			if (answer.equals("Duck")) {
+				playQuack();
+			}
+			if (answer.equals("Dog")) {
+				playWoof();
+			}
+		}
 	}
-	
-	
-	
+
 	void playMoo() {
 		playNoise(mooFile);
 	}
-	
 
 	void playQuack() {
 		playNoise(quackFile);
@@ -42,25 +39,24 @@ if(answer.equals("cows")){
 		playNoise(woofFile);
 	}
 
-	  String quackFile = "/Users/League/Google Drive/league-sounds/quack.wav";
+	String quackFile = "/Users/League/Google Drive/league-sounds/quack.wav";
 	String mooFile = "/Users/League/Google Drive/league-sounds/moo.wav";
 	String woofFile = "/Users/League/Google Drive/league-sounds/woof.wav";
 	String meowFile = "/Users/League/Google Drive/league-sounds/meow.wav";
 	String llamaFile = "/Users/League/Google Drive/league-sounds/llama.wav";
 
-
 	/* Ignore this stuff */
 
 	public void playNoise(String soundFile) {
-    	try {
-   		 AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(soundFile));
-   		 Clip clip = AudioSystem.getClip();
-   		 clip.open(audioInputStream);
-   		 clip.start();
-   		 Thread.sleep(3400);
-    	} catch (Exception ex) {
-        	ex.printStackTrace();
-    	}
+		try {
+			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(soundFile));
+			Clip clip = AudioSystem.getClip();
+			clip.open(audioInputStream);
+			clip.start();
+			Thread.sleep(3400);
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
 	}
 
 	public static void main(String[] args) {
@@ -68,6 +64,3 @@ if(answer.equals("cows")){
 	}
 
 }
-
-
-
