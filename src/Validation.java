@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class Validation {
 	public static void main(String[] args) {
 
-for (int i = 0; i<100; i++){
+for (int i = 0; i<10; i++){
 		// 1. Watch the first 2 minutes of this movie: http://vimeo.com/2485018
 		int randomNumber = new Random().nextInt(5);
 		// 2. On paper, write all the numbers that get printed when you run this class
@@ -16,7 +16,7 @@ for (int i = 0; i<100; i++){
 
 		// 3. Use the randomNumber to give the user a random compliment.
 if (randomNumber == 0){
-	JOptionPane.showMessageDialog(null, "You have ZERO friends!");
+	JOptionPane.showMessageDialog(null, "You have ZERO bad subjects!");
 }
 if (randomNumber == 1){
 	JOptionPane.showMessageDialog(null, "You have ONE awesome shirt!");
