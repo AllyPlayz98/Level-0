@@ -2,8 +2,10 @@
 /AnimalFarm.class
 /AreYouHappy.class
 /BabyLyrics.class
+/BananaQuiz.class
 /BlastOff.class
 /ChangeCalculator.class
+/ChristmasTree.class
 /CrazyCatLady.class
 /DizzyTortoise.class
 /FizzBuzz.class
@@ -18,5 +20,8 @@
 /TortoiseColorChooser.class
 /Validation.class
 /XGeeks.class
-/BananaQuiz.class
-/ChristmasTree.class
+/FruitQuiz.class
+/ding.wav
+/wrong.wav
+/wrong2.wav
+/SafeCracker.class
