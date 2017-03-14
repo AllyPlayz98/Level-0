@@ -6,6 +6,7 @@
 /BlastOff.class
 /ChangeCalculator.class
 /ChristmasTree.class
+/CircleRing.class
 /CrazyCatLady.class
 /DizzyTortoise.class
 /DoYouLikePizza.class
@@ -14,6 +15,7 @@
 /ForLoops.class
 /FriendlyRobots.class
 /FruitQuiz.class
+/HappyPet.class
 /HighLowGame.class
 /LotteryNumbers.class
 /MyAges.class
@@ -21,6 +23,7 @@
 /ObedientTortoise.class
 /SafeCracker.class
 /ShinyObjects.class
+/SimpleCalculator.class
 /SleepyHead.class
 /SoundTrackofLife.class
 /SpiralMaker.class
@@ -34,6 +37,4 @@
 /ding.wav
 /wrong.wav
 /wrong2.wav
-/SimpleCalclutor.class
-/SimpleCalculator.class
-/HappyPet.class
+/ChooseYourOwnAdventure.class

@@ -12,7 +12,7 @@ public class TortoiseColorChooser {
 		// 3. ask the user what color they would like the tortoise to draw
 		for (int i = 0; i < 5; i++) {
 
-			String color = JOptionPane.showInputDialog("Pick a color?");
+			String color = JOptionPane.showInputDialog("Pick a color.");
 			// 4. use an if/else statement to set the pen color that the user requested
 			if (color.equals("Cyan")) {
 				Tortoise.setPenColor(Color.CYAN);
