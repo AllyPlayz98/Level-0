@@ -31,5 +31,13 @@ public class ForLoops {
 				//odd
 			}
 		}
+		System.out.println();
+		for (int s= 0; s <= 777; s+=7){
+			System.out.println(s);
+		}
+		System.out.println();
+		for (int o = 2005; o<=2017; o++){
+			System.out.println("In" + o + "I was" + (o-2005));
+		}
 	}
 }
