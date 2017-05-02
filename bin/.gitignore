@@ -26,6 +26,7 @@
 /ShinyObjects.class
 /SimpleCalculator.class
 /SleepyHead.class
+/SleepyHead2.class
 /SoundTrackofLife.class
 /SpiralMaker.class
 /StarShow.class
@@ -38,4 +39,5 @@
 /ding.wav
 /wrong.wav
 /wrong2.wav
-/SleepyHead2.class
+/StringMethods1.class
+/GuessingPi.class
