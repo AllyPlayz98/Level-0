@@ -16,6 +16,7 @@
 /ForLoops.class
 /FriendlyRobots.class
 /FruitQuiz.class
+/GuessingPi.class
 /HappyPet.class
 /HighLowGame.class
 /LotteryNumbers.class
@@ -30,6 +31,7 @@
 /SoundTrackofLife.class
 /SpiralMaker.class
 /StarShow.class
+/StringMethods1.class
 /ThatWasEasy.class
 /TortoiseColorChooser.class
 /TortoiseWalkOfFame.class
@@ -39,5 +41,3 @@
 /ding.wav
 /wrong.wav
 /wrong2.wav
-/StringMethods1.class
-/GuessingPi.class
